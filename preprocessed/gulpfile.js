@@ -36,7 +36,7 @@ gulp.task('devServer', function(){
 //Launch in browser once server is running
 gulp.task('launchDev', ['devServer'], function(){
 	gulp.src('app/Style-Guide.html')
-		.pipe(open("", {url: "http://localhost:8870"}));
+		.pipe(open("", {url: "http://localhost:8871"}));
 });
 
 //Reload the page with changes on save
