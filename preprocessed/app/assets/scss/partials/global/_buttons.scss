@@ -1,0 +1,71 @@
+// button($color = 'primary', $width = 280px) //primary (white bkgd) & secondary (black bkgd)
+// 	display: inline-block
+// 	width: 100%
+// 	if $width != 'auto'
+// 		max-width: px-to-rem($width) //to keep it from looking too stretched out
+// 	else
+// 		max-width auto
+// 	text-align: center
+// 	margin-left: auto
+// 	margin-right: auto
+// 	height: auto
+// 	border: 1px solid $btn-borderColor
+// 	medium-font()
+// 	font-size: px-to-rem(14px)
+// 	line-height: px-to-em(18px)
+// 	letter-spacing: kerning-to-letterspacing(200)
+// 	text-transform: uppercase
+// 	text-decoration: none
+// 	if $color == 'secondary'
+// 		color: $secondaryBtn-color
+// 		background-color: $secondaryBtn-bkgdColor
+// 		padding: 0.5em 3.5em 0.45em 3.5em
+// 		border: 1px solid $secondaryBtn-borderColor
+// 	else if $color == 'transparent'
+// 		color: $transparentBtn-color
+// 		background-color: transparent
+// 		padding: 0.5em 2em 0.45em 2em
+// 		border: 1px solid $transparentBtn-color
+// 	else if $color == 'transparent-inverted'
+// 		color: $transparentInvertedBtn-color
+// 		background-color: transparent
+// 		padding: 0.5em 2em 0.45em 2em
+// 		border: 1px solid $transparentInvertedBtn-borderColor
+// 	else
+// 		color: $primaryBtn-color
+// 		background-color: $primaryBtn-bkgdColor
+// 		padding: 0.5em 2em 0.45em 2em
+// 	&:hover, &:focus
+// 		cursor: pointer
+// 	&[disabled]
+// 		cursor: default
+// 		color: $disabled-color
+// 		border-color: $disabled-color
+// 	+at-breakpoint('sm') //480px
+// 		if $width != 'auto'
+// 			width: px-to-rem($width)
+// 		else
+// 			width auto
+// 		max-width: 100%
+// 		margin-left: 0
+// 		margin-right: 0
+
+// button
+// 	button()
+// 	&.button-text
+// 		background: none repeat scroll 0 0 transparent;
+// 		border: 0 none;
+// 		font-weight: 400;
+// 		padding: 0;
+
+// a.button
+// 	button()
+
+// a.button-secondary
+// 	button('secondary')
+
+// a.button-transparent
+// 	button('transparent')
+
+// a.button-transparent-inverted
+// 	button('transparent-inverted')

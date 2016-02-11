@@ -1,0 +1,87 @@
+// label, legend
+// 	display: block
+// 	margin: px-to-rem(30px) 0 px-to-rem(10px) 0
+// +all-inputs()
+// 	display: block
+// 	width: 100%
+// 	color: $form-color
+// 	background-color: $body-bkgdColor
+// 	border: 1px solid $primary-borderColor
+// 	padding: 0.5em 0.4em
+// 	height: px-to-rem(32px)
+// 	// &[required]
+// 	+placeholders()
+// 		color: $form-color-placeholder
+// 	&:focus
+// 		outline-color: $outline-color
+// 	&.error
+// 		border-color $dark-red
+// textarea
+// 	height: px-to-rem(100px)
+// select
+// 	padding-bottom 0
+// 	padding-top 0
+// 	padding-right: 0
+// 	border-radius: 0
+// 	background-color: $body-bkgdColor
+// [type=checkbox], [type=radio]
+// 	height: 0
+// 	margin-bottom: 0
+// 	position: relative
+// 	left: -999999px
+// 	+ label
+// 		display: inline-block
+// 		position: relative
+// 		padding-left: 25px
+// 		cursor: pointer
+// 		margin: 0 0 px-to-rem(20px) 0
+// 		&::before
+// 			content: ''
+// 			position: absolute
+// 			top: 50%
+// 			left: 0
+// 			height: 12px
+// 			width: 12px
+// 			margin-top: -8px
+// 			border: 1px solid $checkboxRadio-color
+// 	&:checked + label
+// 		&::before
+// 			background-color: $checkboxRadio-color
+// [type=radio]
+// 	+ label
+// 		margin: 0 0 px-to-rem(30px) 0
+// 		&::before
+// 			border-radius: 50%
+
+// input[type=reset]
+// 	button()
+
+// input[type=submit]
+// 	button('secondary')
+
+// .form-row
+// 	margin-bottom px-to-rem(30px)
+// 	&.error
+// 		color $dark-red
+// 	span.error
+// 		display block
+
+
+// //---------------------------------------------------------------------------------------------
+// // Error Messages & Comments
+// //---------------------------------------------------------------------------------------------
+// .form-error
+// 	background-color $formError-bkgdColor
+// 	display block
+// 	padding 10px
+// .required-notice
+// 	float: right
+// 	color: $helperMsg-color
+// 	margin-bottom: 0
+// .form-caption, span.error
+// 	color: $helperMsg-color
+// 	p&
+// 		margin-bottom 0
+// .error-form
+// 	color $dark-red
+// 	padding-bottom px-to-rem(20px)

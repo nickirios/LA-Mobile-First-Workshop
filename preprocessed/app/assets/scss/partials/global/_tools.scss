@@ -1,0 +1,23 @@
+//---------------------------------------------------------------------------------------------
+// Functions
+//---------------------------------------------------------------------------------------------
+//convert px value to rem value
+@function px-to-rem($px, $base:16px){
+  @return ($px / $base) * 1rem;
+}
+
+//convert px value to em value
+@function px-to-em($px, $base:16px){
+  @return ($px / $base) * 1em;
+}
+
+//convert Photoshop kerning value to CSS letter-spacing value
+//http://justinmarsan.com/css-letter-spacing-in-photoshop-and-browsers/
+@function kerning-to-letterspacing($ps-kerning){
+	@return ($ps-kerning / 1000) * 1em;
+}
+
+
+//---------------------------------------------------------------------------------------------
+// Mixins
+//---------------------------------------------------------------------------------------------
